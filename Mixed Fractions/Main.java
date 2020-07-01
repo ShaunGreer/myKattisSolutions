@@ -1,5 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
@@ -27,10 +25,3 @@ public class Main {
         scanner.close();
     }
 }
-
- //   int counter = 0;
-//            int tempBottom = bottom;
-//            while((tempBottom + bottom) <= top){
-//                counter++;
-//                tempBottom += bottom;
-//            }
