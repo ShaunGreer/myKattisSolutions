@@ -1,6 +1,6 @@
 import Data.List.Split(splitOn)
 main = do
-  contents <- readFile "1.in"
+  contents <- getContents
   let bottles = read ((splitOn "\n" contents) !! 0) :: Int
   let typeOfBottle = (splitOn "\n" contents) !! 1
   printSong (song bottles typeOfBottle)
